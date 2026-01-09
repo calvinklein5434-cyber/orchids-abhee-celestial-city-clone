@@ -35,7 +35,7 @@ const VirtualTour = () => {
           {/* Video Placeholder Container */}
           <div 
             onClick={openPopup}
-            className="relative group cursor-pointer w-full aspect-video md:aspect-[21/9] overflow-hidden"
+            className="relative group cursor-pointer w-full aspect-video md:aspect-[21/9] overflow-hidden mt-10"
           >
             <Image
               src={videoThumbnail}
