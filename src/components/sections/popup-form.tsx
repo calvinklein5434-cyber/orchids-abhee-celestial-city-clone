@@ -44,7 +44,7 @@ const PopupForm = () => {
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
       <DialogContent
-        className="p-0 overflow-hidden sm:max-w-[600px] bg-white border-none !w-0 !h-0"
+        className="p-0 overflow-hidden sm:max-w-[600px] bg-white border-none"
         showCloseButton={false}>
 
         {/* Custom Header */}
